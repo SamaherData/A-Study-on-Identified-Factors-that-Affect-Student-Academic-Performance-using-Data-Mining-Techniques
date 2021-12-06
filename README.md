@@ -117,6 +117,9 @@ Several algorithms used to predict the student’s dropout status if whether the
 
 Predicting students’ performance can be a difficult task because it is a multifactor problem. To overcome these problems, the DM algorithm and approach were used in this research to predict student dropout and explore the effect of demographic variables. Thus would provide meaningful information to guide coordinator, teacher, and manager when making decision concerning the school year and course offered. The FAMD showed that the demographic variable and family related has a low variance in explaining the variation contained in data. A mixed linear model used to study the variation within and between student grades. SMOTE technique and the use of hyper parameter tuning achieved systematically better results than the previous finding. As an attempt to improve the models, ensemble techniques such as XGBoost were performed. 
 
+- This means the demographic and family related
+features have a low contribution to the prediction of student performance.
+
 
 
 
