@@ -20,10 +20,18 @@ Education has a paramount role in the development and progress of the countries.
 
 **Dataset Description**
 
-This dataset is based on a study of data collected during the 2005-2006 school year from two public schools, from the Alentejo region of Portugal . The dataset was prepared from the UCI Machine Learning Repository. The data was integrated into two datasets related to Mathematics (with 395 examples) and the Portuguese language (649 records) classes.
+This dataset is based on a study of data collected during the 2005-2006 school year from two public schools, from the Alentejo region of Portugal . The dataset was prepared from the UCI Machine Learning Repository. The data was integrated into two datasets related to Mathematics (with 395 examples) and the Portuguese language (649 records) classes. The dataset involves 33 attributes such as past performance, socio-demographics, family and student related features. During the school year student progress is assessed at two separate periods and the final grade.
 
 
 **EDA:**
+
+**The density plot of G2 and G3 columns:**
+
+![image](https://user-images.githubusercontent.com/93243958/144902933-b0697820-7187-431f-abc5-c5f7e76e3de2.png)
+
+There are students with a zero grade, which can be considered a missing value in both datasets.
+
+
 
 **Imbalanced dataset plot of the Portuguese dataset:**
 ![image](https://user-images.githubusercontent.com/93243958/144898643-88011f25-8002-41ba-8b3e-fce68bf991c9.png)
