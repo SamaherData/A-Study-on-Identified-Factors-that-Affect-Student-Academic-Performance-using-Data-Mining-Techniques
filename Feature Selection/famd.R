@@ -1,4 +1,3 @@
-#kassambara, 2017. FAMD in R Using FactoMineR. [Online] Available at: http://www.sthda.com/english/articles/22-principal-component-methods/72-famd-in-r-using-factominer-quick-scripts-and-videos/[Accessed 19 3 2019].
 
 library(FactoMineR)
 res.famd <- FAMD(raw_df, graph = FALSE)
