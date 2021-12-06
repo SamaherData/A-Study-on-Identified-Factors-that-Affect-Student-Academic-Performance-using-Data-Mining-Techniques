@@ -6,7 +6,7 @@
 - According to OECD studies, Portugal has a high proportion of students who leave school early at 40%, which is much higher than the OECD average of 15%. 
 
 
- * OECD: Organization for economic Co-operation and development
+ *OECD: Organization for economic Co-operation and development.*
 
 **Project Question:**
 
@@ -16,7 +16,7 @@
 
 **Introduction:**
 
-Education has a paramount role in the development and progress of the countries. It enhances the ability to understand all human right and responsibilities. Longitudinal data appear in education with repeated measurements that study the variation within and among student grades of student performance. The student performance assessment plays a vital role in fostering economic growth. Talking about the Portuguese educational, in particular, Portugal was at the lower end tail among European countries due to the high student failure rate of 40%. While the Europeans union average was 15%, this research applies machine learning techniques to forecast student dropout in Portugal. Furthermore, to identify the factors that are associated with student and their environment that may affect their performance to help students identify their weakness and strengths.
+Education has a paramount role in the development and progress of the countries. It enhances the ability to understand all human right and responsibilities. Longitudinal data appear in education with repeated measurements that study the variation within and among student grades of student performance. This project applies machine learning techniques to forecast student dropout in Portugal. Furthermore, to identify the factors that are associated with student and their environment that may affect their performance to help students identify their weakness and strengths.
 
 **Dataset Description**
 
@@ -25,22 +25,23 @@ This dataset is based on a study of data collected during the 2005-2006 school y
 
 **EDA:**
 
-*Imbalanced dataset plot of the Portuguese dataset:*
+**Imbalanced dataset plot of the Portuguese dataset:**
 ![image](https://user-images.githubusercontent.com/93243958/144898643-88011f25-8002-41ba-8b3e-fce68bf991c9.png)
 
 - It has been noted there are an unequal number of instances for each class where the number of failed students is 85, which is much less than the number of successful students at (564).
 
-*Imbalanced dataset plot of the mathematics dataset:*
+**Imbalanced dataset plot of the mathematics dataset:**
 
 ![image](https://user-images.githubusercontent.com/93243958/144898757-034215ab-6275-438f-b188-4377e672c09f.png)
 
 - It was observed there is an unequal class distribution in the mathematics dataset. The number of students who failed the exams was 92, while the number of passing students was 303. 
 
-*Correlation Matrix:*
+
+**Correlation Matrix:**
 
 ![image](https://user-images.githubusercontent.com/93243958/144898943-501dbf00-4cf8-4fad-babe-14f8716a2208.png)
 
-**Data Pre-Processing **
+**Data Pre-Processing**
 - The nominal and binary variables have been encoded using one hot encoding. 
 
 - The students with a zero grade in all semesters will be considered a missing value. The missing values will be replaced with median values from each column.
@@ -86,7 +87,7 @@ Several algorithms used to predict the student’s dropout status if whether the
 
 - In the Portuguese dataset, the best BIC value obtained by Naïve Bayes whereas decision tree regressor has the lowest AIC compared to the alternative. In mathematics dataset, the best AIC and BIC was for Gaussian Naïve Bayes algorithm with 67.366 and 1467.008. 
 
-*
+
 
 ![image](https://user-images.githubusercontent.com/93243958/144897677-50c8f0e4-311f-4042-9ed4-9ec1404d967c.png)
 
