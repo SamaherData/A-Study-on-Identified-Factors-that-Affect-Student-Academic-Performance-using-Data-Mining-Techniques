@@ -120,6 +120,8 @@ Predicting students’ performance can be a difficult task because it is a multi
 - This means the demographic and family related
 features have a low contribution to the prediction of student performance.
 
+**Blog link :** https://medium.com/@samaher.fwz/background-high-rates-of-student-failure-in-secondary-level-in-science-and-linguistic-classes-89fdd6b026b7
+
 
 
 
