@@ -1,7 +1,7 @@
 **A Study on Identified Factors that Affect Student Academic Performance using Data Mining Techniques**
 
 
-**Background:**
+**Problem Introduction:**
 - High rates of student failure in secondary level in science and linguistic classes are a common problem worldwide. 
 
 - The pass and completion rates in Portuguese secondary schools are significantly below the average of European countries. 
@@ -82,7 +82,7 @@ There are students with a zero grade, which can be considered a missing value in
 
 
 
-**Methods:**
+**Modelling:**
 
 Several algorithms used to predict the student’s dropout status if whether they interested in continuing their study or dropping outs.  Logistic Regression, XGboost, Decision Tree, Support Vector Machine, Naïve Bayes and Random Forest were used in a classification and regression experiment. The mixed linear model was used to study the variation among and within student grades. Furthermore, SMOTE technique was used in the classification model to deal with imbalanced datasets in both subjects. The Kfold cross-validation was used to avoid the overfitting problem. 
 
@@ -122,6 +122,11 @@ Predicting students’ performance can be a difficult task because it is a multi
 
 - This means the demographic and family related
 features have a low contribution to the prediction of student performance.
+
+**Improvment:**
+
+In the future, I would like to obtain more data about an undergraduate student from multiple universities and attempt a deep learning algorithm to get a more precise output. I would also employ different models to elective courses in college to recommend courses to the students. Furthermore, applying prediction models in online courses to predict student performance in an online learning environment.
+
 
 **Blog link :** https://medium.com/@samaher.fwz/background-high-rates-of-student-failure-in-secondary-level-in-science-and-linguistic-classes-89fdd6b026b7
 
